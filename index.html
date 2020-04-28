@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
+
   <title>Ross Northrup Portfolio</title>
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
   <!-- Font Awesome icons (free version)-->
@@ -22,13 +23,28 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
+      <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">About Me</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Skills</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Experiences</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -36,16 +52,21 @@
   <!-- Header-->
   <header class="masthead">
     <div class="container">
-      <div class="masthead-subheading">Ross Northrup</div>
-      <div class="masthead-heading text-uppercase">Web Developer</div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="assets/img/RossNorthrupResume.pdf">Resume</a>
+      <div class="intro-text">
+        <div class="intro-heading text-uppercase">Ross Northrup</div>
+        <div class="intro-lead-in">Web Developer</div>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="./img/RossNorthrupResume.pdf" target="_blank"><i class="fa fa-download"></i>Download Resume</a>
+      </div>
     </div>
   </header>
   <!-- About me -->
-  <section class="page-section" id="services">
+  <section id="services">
     <div class="container">
-      <div class="text-center">
-        <h2 class="section-heading text-uppercase">About Me</h2>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">About Me</h2>
+          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+        </div>
       </div>
 
       <div class="container">
@@ -54,17 +75,19 @@
           <p>A web devloper excited to learn new languages and build projects with like-minded programmers. Problem solving and collaboration are instictual</p>
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- skills Grid-->
-  <section class="page-section bg-light" id="skills">
+  <section class="bg-light" id="skills">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Skills</h2>
         </div>
       </div>
+      <br>
       <div class="container skills-container flex-center con-1">
         <div class="row">
           <div class="col-lg-2 col-md-4 col-sm-6 text-center">
@@ -198,7 +221,7 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2014-2018</h4>
+                  <h4>2019 - current</h4>
                   <h4 class="subheading">Producer/Host</h4>
                   <h4 class="subheading" style="color:#3cb46e">The Always Sunny Cast</h4>
                 </div>
@@ -288,8 +311,8 @@
           <h2 class="section-heading text-uppercase mb-5">Projects</h2>
           <!-- <h3 class="section-subheading text-muted"></h3> -->
         </div>
-      <!-- </div>
-      <div class="row">
+      </div>
+      <!-- <div class="row">
         <div class="col-md-3 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
@@ -349,9 +372,9 @@
             <p class="text-muted">As my first React web application, I developed a fast food review application where users can add reviews to fast food restaurants and also reviews by other users.</p>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Contact-->
   <section id="contact">
@@ -387,21 +410,19 @@
   <!-- Contact-->
 
   <!-- Footer-->
-  <footer class="footer py-4">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
-        <div class="col-lg-4 my-3 my-lg-0">
-          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i
-              class="fab fa-linkedin-in"></i></a>
-        </div>
-        <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Privacy Policy</a><a href="#!">Terms of Use</a></div>
+  <footer class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-lg-12">
+        <span class="text-center">Developed By <strong>Ross Northrup</strong> using StartBootStrap</span>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
+
   <!-- Portfolio Modals-->
   <!-- Modal 1-->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
@@ -410,7 +431,7 @@
             <div class="col-lg-8">
               <div class="modal-body">
                 <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">Project Name</h2>
+                <!-- <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
@@ -429,7 +450,7 @@
     </div>
   </div>
   <!-- Modal 2-->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
@@ -438,7 +459,7 @@
             <div class="col-lg-8">
               <div class="modal-body">
                 <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">Project Name</h2>
+                <!--<h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
@@ -457,7 +478,7 @@
     </div>
   </div>
   <!-- Modal 3-->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
@@ -466,7 +487,7 @@
             <div class="col-lg-8">
               <div class="modal-body">
                 <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">Project Name</h2>
+                <!-- <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
@@ -485,26 +506,32 @@
     </div>
   </div>
   <!-- Modal 4-->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+<!--  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2020</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
+                <!-- Project Details Go Here -->
+              <!--  <h2 class="text-uppercase">Photo Jar</h2>
+                <p class="item-intro text-muted">An Image hosting Web application</p>
+                <img class="img-fluid d-block mx-auto" src="img/photojar.png" alt="photo jar screenshot">
+                <p>I worked with a team to develop a single page image hosting web application using HTML, CSS and JavaScript for the frontend and Node Js , Express and Mongo DB for the backend. We used Handlebars templating to protect against cross
+                  site scripting so only clean data would be fed to application. We also used Amazon Web Services as a cloud storage for uploading photos and the google maps API to display location information for images that had GPS metadata. It
+                  was nice to use GitHub source control as team which made integration of code from each individual on the team smooth. GitHub was also very useful in the planning stage of our agile development process where we set up every task to
+                  be done as a github issue and only closed it after the task was accomplished.</p>
+
+                <a href="https://2jar.github.io/photo-jar-client/" target="_blank"><button class="btn btn-primary" type="button">
+                    Deployed Site</button></a>
+
+                <a href="https://github.com/2jar/photo-jar-client" target="_blank"><button class="btn btn-primary" type="button">
+                    GitHub Repo</button></a>
               </div>
             </div>
           </div>
@@ -512,27 +539,33 @@
       </div>
     </div>
   </div>
-  <!-- Modal 5-->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <!-- Modal 2 -->
+<!--  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2020</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
+                <!-- Project Details Go Here -->
+            <!--    <h2 class="text-uppercase">Appointment Scheduler</h2>
+                <p class="item-intro text-muted">Appointment scheduler for GA students to schedule appointments with Career coaches.</p>
+                <img class="img-fluid d-block mx-auto" src="img/appointmentscheduler.png" alt="Appointment scheduler screenshot">
+                <p>Developing the Appointment Scheduler was a great learning opportunity as one of the projects I developed during my stay at General Assembly.
+                  It is a single page web application where General Assembly students can schedule appointments with career coaches.
+                  I developed the backend using Ruby’s rails framework and I incorporated PostgresSQL for my database. For the frontend, I used HTML5, CSS and JavaScript. I also used Handlebars templating to protect against cross site scripting.
+                </p>
+                <a href="https://juliojesse25.github.io/appointment-scheduler-client/" target="_blank"><button class="btn btn-primary" type="button">
+                    Deployed Site</button></a>
+
+                <a href="https://github.com/juliojesse25/appointment-scheduler-client" target="_blank"><button class="btn btn-primary" type="button">
+                    GitHub Repo</button></a>
               </div>
             </div>
           </div>
@@ -540,27 +573,30 @@
       </div>
     </div>
   </div>
-  <!-- Modal 6-->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <!-- Modal 4 -->
+<!--  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2020</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
+                <!-- Project Details Go Here -->
+              <!--  <h2 class="text-uppercase">Tic Tac Toe </h2>
+                <p class="item-intro text-muted">Web Game Project</p>
+                <img class="img-fluid d-block mx-auto" src="img/tictactoe.png" alt="">
+                <p>I developed the Tic Tac Toe game using HTML, CSS and JavaScript and it can played locally between users on the same computer. To play the game you have to first sign up for an account and then sign in.</p>
+                <a href="https://juliojesse25.github.io/Game-project-client/" target="_blank"><button class="btn btn-primary" type="button">
+                    Deployed Site</button></a>
+
+                <a href="https://github.com/juliojesse25/Game-project-client" target="_blank"><button class="btn btn-primary" type="button">
+                    GitHub Repo</button></a>
               </div>
             </div>
           </div>
@@ -568,16 +604,52 @@
       </div>
     </div>
   </div>
-  <!-- Bootstrap core JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-  <!-- Third party plugin JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  <!-- Contact form JS-->
-  <script src="assets/mail/jqBootstrapValidation.js"></script>
-  <script src="assets/mail/contact_me.js"></script>
-  <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
+
+  <!-- Modal 5 -->
+<!--  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+            <!--    <h2 class="text-uppercase">Boston Fast Food</h2>
+                <p class="item-intro text-muted">Add and see other people's reviews about Boston Fast Food places</p>
+                <img class="img-fluid d-block mx-auto" src="img/bostonff.png" alt="">
+                <p>As my first React application, I developed the Boston Fast Food application where users can add reviews to fast food restaurants and also see the reviews added by other users. Users can also edit or delete the reviews they added.</p>
+
+                <a href="https://juliojesse25.github.io/boston-fast-food-client/" target="_blank"><button class="btn btn-primary" type="button">
+                    Deployed Site</button></a>
+
+                <a href="https://github.com/juliojesse25/boston-fast-food-client" target="_blank"><button class="btn btn-primary" type="button">
+                    GitHub Repo</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
 </body>
 
 </html>
