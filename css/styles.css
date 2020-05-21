@@ -102,7 +102,7 @@ body {
 .mini-bio {
   text-align: justify;
   background-color: #5AD9C9;
-  padding: 25px;
+  padding: 50px;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
