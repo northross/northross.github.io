@@ -45,7 +45,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 30px !important;
 }
 
 section h3.section-subheading {
@@ -170,7 +170,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/city.jpg");
+  background-image: url("./assets/img/skyline.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -183,15 +183,15 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 50px !important;
   font-style: italic;
-  line-height: 22px;
+  line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 50px !important;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
@@ -204,9 +204,9 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
-    line-height: 40px;
+    line-height: 50px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
@@ -225,8 +225,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .icon-img {
-  width: 90px;
-  height: 90px;
+  width: 90px !important;
+  height: 90px !important;
 }
 
 #portfolio .portfolio-item {
@@ -234,7 +234,7 @@ header.masthead .intro-text .intro-heading {
   margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item {
   position: relative;
   display: block;
   max-width: 100px;
@@ -242,21 +242,21 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-hover {
   position: absolute;
   width: 50px;
   height: 50px;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(60, 180, 110, .9);
+  background: rgba(110, 212, 248, .7);
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-item .portfolio-hover:hover {
   opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -267,19 +267,24 @@ header.masthead .intro-text .intro-heading {
   color: white;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+.portfolio-line {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 100px;
   margin: 0 auto;
-  padding: 25px;
+  padding: 15px;
   text-align: center;
   background-color: #fff;
 }
@@ -451,7 +456,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #3cb46e;
+  background-color: #e9ecef;
 }
 
 .timeline > li .timeline-image h4 {
@@ -593,16 +598,18 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
-#skills img {
-  max-height: 90px;
-  max-width: 90px;
+.skills img {
+  max-height: 90px !important;
+  max-width: 90px !important;
 }
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/bostonskyset.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
 section#contact .section-heading {
