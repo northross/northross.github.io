@@ -107,7 +107,7 @@ body {
 }
 .wlb {
   margin-bottom: 50px;
-  color: #d9b55a !important;
+  color: #3FB3B6 !important;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -199,8 +199,12 @@ sup {
   top: -0.5em;
 }
 
+.links {
+  color: #FFDC00;
+}
+
 a {
-  color: #fed136;
+  color: #3FB3B6;
   text-decoration: none;
   background-color: transparent;
 }
