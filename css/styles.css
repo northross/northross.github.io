@@ -100,9 +100,14 @@ body {
 }
 
 .mini-bio {
-  text-align: justify;
-  background-color: #5AD9C9;
-  padding: 50px;
+  text-align: left;
+  background-color: #3FB3B6;
+  opacity: .8;
+  padding: 40px 65px;
+}
+.wlb {
+  margin-bottom: 50px;
+  color: #d9b55a !important;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10117,7 +10122,8 @@ img::-moz-selection {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: #3FB3B6;
+    opacity: .6;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {

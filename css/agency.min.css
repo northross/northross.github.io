@@ -13,15 +13,15 @@ p {
 }
 
 a {
-  color: #3cb46e
+  color: #5AD9C9
 }
 
 a:hover {
-  color: #fec503
+  color: #5AD9C9
 }
 
 .text-primary {
-  color: #3cb46e !important
+  color: #5AD9C9 !important
 }
 
 h1, h2, h3, h4, h5, h6 {
