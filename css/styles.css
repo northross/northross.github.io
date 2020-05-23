@@ -79,6 +79,10 @@ body {
   background-color: #fff;
 }
 
+.heading-margin {
+  margin-bottom: 50px !important;
+}
+
 .name {
   font-size: 100px;
   font-weight: bold;
@@ -98,12 +102,21 @@ body {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
+.mini-bio-div {
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.biopic {
+  margin-top: 50px;
+}
 
 .mini-bio {
+  border-radius: 90px;
   text-align: left;
   background-color: #3FB3B6;
   opacity: .8;
-  padding: 40px 65px;
+  padding: 50px 65px;
 }
 .wlb {
   margin-bottom: 50px;
@@ -10333,9 +10346,7 @@ header.masthead .masthead-heading {
   border-left-width: 0;
 }
 
-.heading-margin {
-  margin-bottom: 65px !important;
-}
+
 
 .timeline > li .timeline-image {
   position: absolute;
