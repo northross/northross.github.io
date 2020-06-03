@@ -10047,7 +10047,9 @@ p {
 }
 
 .con-con {
-  margin: 0 0 10px 0;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .page-section {
