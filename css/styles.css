@@ -96,8 +96,10 @@ body {
 }
 
 .name-2 {
-  font-size: 70px;
+  font-size: 80px;
   font-style: italic;
+  font-weight: 700;
+  margin-top: -40px;
   color: #3FB3B6;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
@@ -110,6 +112,14 @@ body {
 .biopic {
   margin-top: 50px;
 }
+
+.contact-icons {
+  margin-top: 30px !important;
+}
+
+/* .project-blurbs {
+  background-color:
+} */
 
 .mini-bio {
   border-radius: 90px;
@@ -10037,7 +10047,7 @@ p {
 }
 
 .con-con {
-  margin: 0 auto;
+  margin: 0 0 10px 0;
 }
 
 .page-section {
@@ -10140,7 +10150,7 @@ img::-moz-selection {
     padding-bottom: 1.5rem;
     border: none;
     background-color: #3FB3B6;
-    opacity: .6;
+    opacity: .85;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {

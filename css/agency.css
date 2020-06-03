@@ -36,6 +36,7 @@ h6 {
 }
 h5.icon-text {
   color: #5AD9C9;
+  margin: 3px 0;
 }
 
 section {
@@ -225,6 +226,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .icon-img {
+  margin: 5px;
   width: 90px !important;
   height: 90px !important;
 }
@@ -232,6 +234,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
+  border: 2px solid #5AD9C9;
 }
 
 #portfolio .portfolio-item {
